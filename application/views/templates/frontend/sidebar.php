@@ -14,7 +14,7 @@
     </div>
     <div class="recommended-block">
         <h2 class="title">Llibre recomanat</h2>
-        <img src="<?=base_url();?>uploads/books/el-alquimista.jpg">
+        <img src="<?=base_url();?>uploads/books/perdio_la_cordura.jpg">
     </div>
 </aside>
 <section id="content">

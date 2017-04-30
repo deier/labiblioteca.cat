@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'dbuser',
-	'password' => 'dbuser',
+	'hostname' => '92.222.91.88',
+	'username' => 'root',
+	'password' => 'criptek2014',
 	'database' => 'labiblioteca2017',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',

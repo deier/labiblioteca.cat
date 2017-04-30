@@ -26,7 +26,7 @@
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#"><img src="<?=base_url();?>assets/images/logo_n.png" class="logo"></a>
                 </div>
-                <div class="input-group global-search">
+                <div class="input-group global-search search">
                     <input type="text" class="form-control" name="search" placeholder="Buscar a LaBiblioteca.cat..." >
                     <span class="input-group-addon">
                         <button type="submit">
