@@ -25,7 +25,10 @@ class Library extends CI_Controller{
 
     public function create(){
       if(!empty($this->input->post())){
-        var_dump($this->input->post());
+        $_POST['user_id'] = 1;
+        $this->db->insert('books', $this->input->post());
+        
+        redirect(base_url().'library/?msg=book-created');
       }
       else{
         $data['genders'] = $this->library_model->get_genders();

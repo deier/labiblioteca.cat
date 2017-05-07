@@ -1,6 +1,15 @@
 <h2>La meva biblioteca / La biblioteca de Pepito de los Palotes</h2>
 <p>Llistat de llibres ordenats per ordre alfabètic amb buscador i poder seleccionar l'ordre</p>
-
+<?php 
+if(isset($_GET['msg'])){
+    switch($_GET['msg']){
+        case 'book-created': 
+            echo "<div class='alert alert-success'>
+                    <strong>Correcte!</strong> S'ha creat el llibre satisfactoriament.
+                </div>";
+            break;
+    }
+} ?>
 <!-- ADD ACTION -->
 <div class="action-buttons">
     <a href="<?=base_url()?>library/create">
