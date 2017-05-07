@@ -3,7 +3,9 @@
 
 <!-- ADD ACTION -->
 <div class="action-buttons">
-    <i class="fa fa-plus-circle"></i>
+    <a href="<?=base_url()?>library/create">
+        <i class="fa fa-plus-circle"></i>
+    </a>
     <i class="fa fa-sliders"></i>
 </div>
 
